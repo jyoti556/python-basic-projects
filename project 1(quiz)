@@ -1,0 +1,86 @@
+print(" PRACTICE LIKE YOU'VE NEVER WON PERFORM LIKE YOU'VE NEVER LOST \n WELCOME TO THE QUIZ")
+
+game=input("DO YOU WANT TO PLAY THE GAME \n").lower()
+
+if game == "no":
+    exit()
+
+print("LETS START AND TEST YOUR KNOWLEDGE")
+
+count=0
+
+response = input("Q. 'OS' computer abbreviation usually means ? \n").lower()
+if response == "operating system":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. What is the name of the satellite which crossed the edge of our solar system? \n ").lower()
+if response=="voyager":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. Which of the following waves are used by the common TV remote control? \n ").lower()
+if response=="Infrared waves ":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. Most commonly used material in making bulletproof jackets ? \n").lower()
+if response=="Kevlar ":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. Green Muffler is related to? \n").lower()
+if response=="Noise pollution":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. Which country successfully tested a device deemed as the artificial sun? \n ").lower()
+if response=="China ":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. The study of the all the factors that are responsible for the appearance of a particular disease is called? \n").lower()
+if response=="Endermic":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+response = input("Q. How much percentage of freshwater is available on earth? \n ").lower()
+if response=="03%":
+    print("correct !")
+    count +=1
+else:
+    print("incorrect !")
+
+
+
+print("you have replied to" + str(count) + "correct answers")
+
+
